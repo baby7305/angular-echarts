@@ -39,7 +39,34 @@ import { MultipleXAxesComponent } from './multiple-x-axes/multiple-x-axes.compon
 
 const appRoutes: Routes = [
   { path: '', component: OfficialComponent },
-  { path: 'official', component: OfficialComponent }
+  { path: 'official', component: OfficialComponent },
+  { path: 'basic-line-chart', component: BasicLineChartComponent },
+  { path: 'basic-area-chart', component: BasicAreaChartComponent },
+  { path: 'smoothed-line-chart', component: SmoothedLineChartComponent },
+  { path: 'stacked-area-chart', component: StackedAreaChartComponent },
+  { path: 'stacked-line-chart', component: StackedLineChartComponent },
+  { path: 'rainfall', component: RainfallComponent },
+  { path: 'large-scale-area-chart', component: LargeScaleAreaChartComponent },
+  { path: 'confidence-band', component: ConfidenceBandComponent },
+  { path: 'dynamic-data-time-axis', component: DynamicDataTimeAxisComponent },
+  { path: 'rainfall-and-water-flow', component: RainfallAndWaterFlowComponent },
+  { path: 'beijing-aqi', component: BeijingAqiComponent },
+  { path: 'try-dragging-these-points', component: TryDraggingThesePointsComponent },
+  { path: 'line-easing', component: LineEasingComponent },
+  { path: 'line-gradient', component: LineGradientComponent },
+  { path: 'custom-graphic-component', component: OfficialComponent },
+  { path: 'line-chart-in-cartesian-coordinate-system', component: CustomGraphicComponentComponent },
+  { path: 'log-axis', component: LogAxisComponent },
+  { path: 'temperature-change-in-the-coming-week', component: TemperatureChangeInTheComingWeekComponent },
+  { path: 'click-to-add-points', component: ClickToAddPointsComponent },
+  { path: 'two-value-axes-in-polar1', component: TwoValueAxesInPolar1Component },
+  { path: 'two-value-axes-in-polar2', component: TwoValueAxesInPolar2Component },
+  { path: 'distribution-of-electricity', component: DistributionOfElectricityComponent },
+  { path: 'step-line', component: StepLineComponent },
+  { path: 'line-style-and-item-style', component: LineStyleAndItemStyleComponent },
+  { path: 'tooltip-and-datazoom-on-mobile', component: TooltipAndDatazoomOnMobileComponent },
+  { path: 'line-y-category', component: LineYCategoryComponent },
+  { path: 'multiple-x-axes', component: MultipleXAxesComponent }
 ];
 
 @NgModule({
